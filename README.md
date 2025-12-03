@@ -1,24 +1,41 @@
-# Bird Model - Modèle d'Oiseau
+# Bird Model - Stability Analysis
 
-Modèle de simulation d'un oiseau développé en MATLAB/Simulink.
+MATLAB/Simulink model for analyzing bird stability based on anatomical characteristics.
 
 ## Description
 
-Ce projet contient un modèle de simulation pour analyser le comportement d'un oiseau.
+This project contains a simulation model to analyze the stability of birds using their anatomical data. The model calculates the center of mass (COM) and evaluates balance characteristics to determine stability.
 
-## Prérequis
+## Project Structure
 
-- MATLAB R20XX ou supérieur
-- Simulink
+- **bdd_article/** - Database containing anatomical data of various bird species
+- **CaractéristiqueOiseaux** - Bird characteristics data class
+- **DefBalance** - Balance definition class
+- **DefCOM** - Center of Mass (COM) definition class
+- **Stability** - Stability analysis class
+- **Main_BirdModel** - Example script demonstrating the model usage
 
-## Utilisation
+## Prerequisites
 
-[À compléter avec les instructions d'utilisation]
+- MATLAB R2020b or later
 
-## Auteur
 
-[Votre nom]
+## Usage
 
-## Licence
+Run the `Main` script to see an example of stability analysis:
 
-[À définir]
+```matlab
+Main
+```
+
+This will load bird anatomical data and compute stability metrics.
+
+## Author
+
+Roxane Vimbert
+
+## License
+
+[To be defined]
+
+
