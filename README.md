@@ -20,16 +20,6 @@ This project contains a simulation model to analyze the stability of birds using
 - MATLAB R2020b or later
 
 
-## Usage
-
-Run the `Main` script to see an example of stability analysis:
-
-```matlab
-Main
-```
-
-This will load bird anatomical data and compute stability metrics.
-
 ## Author
 
 Roxane Vimbert
