@@ -33,9 +33,3 @@ This will load bird anatomical data and compute stability metrics.
 ## Author
 
 Roxane Vimbert
-
-## License
-
-[To be defined]
-
-
